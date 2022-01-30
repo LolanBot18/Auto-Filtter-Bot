@@ -24,7 +24,7 @@ async def start_message(bot, message):
         text="🤠 𝚙𝚘𝚍𝚎 𝚖𝚎𝚢𝚛𝚎 🤠",
         reply_markup=InlineKeyboardMarkup( [[
              InlineKeyboardButton("😎 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 😎", url="https://t.me/MovieRosterOfficial"),
-             InlineKeyboardButton ("😋 𝚊 𝚠𝚘𝚎𝚛 😋", url=https://t.me/MovieRosterOfficial")
+             InlineKeyboardButton("😋 𝚊 𝚠𝚘𝚎𝚛 😋", url=https://t.me/MovieRosterOfficial")
             ]]
             )
        )
