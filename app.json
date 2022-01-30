@@ -22,13 +22,14 @@
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
+        },
         }
-    ]
-   "buildpacks": [
+    },
+    "buildpacks": [
         {
             "url": "heroku/python"
         }
-    },
+    ],
     "formation": {
         "worker": {
             "quantity": 1,
