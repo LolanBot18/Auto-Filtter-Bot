@@ -23,7 +23,6 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
-        }
     },
     "buildpacks": [
         {
