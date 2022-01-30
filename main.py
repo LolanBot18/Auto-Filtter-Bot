@@ -11,7 +11,7 @@ Rafeek=Client(
 @Rafeek.on_message(filters.command("start"))
 async def start_message(bot, message):
     await message.reply_text(
-        text="👋 𝙷𝙴𝙻𝙾 {Mention}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★",
+        text="👋 𝙷𝙴𝙻𝙾 {Mention_from_user.first_name}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★",
         reply_markup=InlineKeyboardMarkup( [[
              InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='http://t.me/Movie_Roster_bot?startgroup=true')
             ],[
@@ -29,7 +29,7 @@ async def start_message(bot, message):
 @Rafeek.on_message(filters.command("help"))
 async def start_message(bot, message):
     await message.reply_text(
-        text="👋 ʜᴇʟʟᴏᴡ {Mention}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ.",
+        text="👋 ʜᴇʟʟᴏᴡ {Mention_from_user.first_name}\n\n}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ.",
         reply_markup=InlineKeyboardMarkup( [[
              InlineKeyboardButton('👮‍♂ ᴀᴅᴍɪɴ 👮‍♂', callback_data='admin'),
             InlineKeyboardButton('🔌 ᴄᴏɴɴᴇᴄᴛ 🔌', callback_data='coct'),
