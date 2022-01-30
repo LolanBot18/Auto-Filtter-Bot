@@ -1,5 +1,3 @@
-# AutoFilter Bot
-
 ## Deploy
 
 <details><summary>Deploy to Heroku</summary>
