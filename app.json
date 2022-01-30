@@ -22,20 +22,7 @@
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
-        },
-        "DB_URI": {
-            "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
-        },
-        "USER_SESSION": {
-            "description": "A Pyrogram User Session String. Generated From",
-            "value": ""
-        },
-        "FORCESUB_CHANNEL": {
-            "description": "Give your force subscription channel user name  here (WITHOUT @, t.me) eg: MovieRosterGroup",
-            "value": ""
         }
-    },
     "buildpacks": [
         {
             "url": "heroku/python"
