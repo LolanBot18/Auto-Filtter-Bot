@@ -22,7 +22,7 @@
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
-        },
+        }
     },
     "buildpacks": [
         {
