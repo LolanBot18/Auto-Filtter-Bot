@@ -1,0 +1,50 @@
+{
+    "name": "Auto Filter Bot",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://telegra.ph/file/e9014eadda14d1c04723e.jpg",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/Pulapatta/Auto-Filter-Bot",
+    "repository": "https://github.com/Pulapatta/Auto-Filter-Bot",
+    "success_url": "https://t.me/MovieRosterOfficial",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "USER_SESSION": {
+            "description": "A Pyrogram User Session String. Generated From",
+            "value": ""
+        },
+        "FORCESUB_CHANNEL": {
+            "description": "Give your force subscription channel user name  here (WITHOUT @, t.me) eg: MovieRosterGroup",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
