@@ -1,5 +1,3 @@
-## Deploy
-
 <details><summary>Deploy to Heroku</summary>
 <p>
 <br>
