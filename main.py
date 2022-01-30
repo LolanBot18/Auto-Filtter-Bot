@@ -9,12 +9,11 @@ Muhammad=Client(
 )
 
 @Muhammad.on_message(filters.command("start"))
-asnyc def start_message(bot, message):
+async def start_message(bot, message):
     await message.reply_text("👋 Hey How are You")
 
 @Muhammad.on_message(filters.command("help"))
-asnyc def help(bot: Muhammad message: Message):
+async def help(bot: Muhammad message: Message):
     await message.reply_text("❌ Not Help You Ok 😐")
-
 
 Muhammad.run()
