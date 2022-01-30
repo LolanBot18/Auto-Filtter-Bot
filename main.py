@@ -8,11 +8,11 @@ Muhammad=Client(
     api_hash="6c2ee4bf150d9f3cd3e3d64aad0772c8"
 )
 
-@Muhammad.on_message(filters.command("start))
+@Muhammad.on_message(filters.command("start"))
 asnyc def start_message(bot, message):
     await message.reply_text("👋 Hey How are You")
 
-@Muhammad.on_message(filters.command("help))
+@Muhammad.on_message(filters.command("help"))
 asnyc def help(bot: Muhammad message: Message):
     await message.reply_text("❌ Not Help You Ok 😐")
 
